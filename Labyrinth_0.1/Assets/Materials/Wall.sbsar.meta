@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: d2ae26050b473d44da9bf801841a38e2
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: Wall/Wall
+    400000: Wall/Wall/Transform
+    2100000: mat.Wall
+    2100002: mat.Wall_1
+    2300000: Wall/Wall/MeshRenderer
+    2800000: Wall_Base Color
+    2800002: Wall_Normal
+    2800004: Wall_Metallic
+    2800006: Wall_Height
+    2800008: Wall_AmbientOcclusion
+    2800010: Wall_1_Base Color
+    2800012: Wall_1_Normal
+    2800014: Wall_1_Metallic
+    2800016: Wall_1_Height
+    2800018: Wall_1_AmbientOcclusion
+    3300000: Wall/Wall/MeshFilter
+    11400000: sbsar
+    11400002: graph0
+    11400004: graph1
+    13500000: Wall/Wall/SphereCollider
+    100100000: Wall
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  mGraphInstanceData:
+  - graphLabel: Wall
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Wall\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"16222218\" type=\"8\" value=\"10,10\" />\n  <presetinput identifier=\"$randomseed\"
+      uid=\"1468374616\" type=\"4\" value=\"8212\" />\n  <presetinput identifier=\"Wetness\"
+      uid=\"1964837209\" type=\"0\" value=\"0.5\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: Base Color,Normal,Metallic,Height,AmbientOcclusion
+    texturePackingList:
+    - outputName: Base Color
+      alphaSource: Base Color
+    - outputName: Normal
+      alphaSource: Normal
+    - outputName: Roughness
+      alphaSource: Roughness
+    - outputName: Metallic
+      alphaSource: Smoothness
+    - outputName: Height
+      alphaSource: Height
+    - outputName: AmbientOcclusion
+      alphaSource: AmbientOcclusion
+    colorSpaceList:
+    - outputName: Base Color
+      bLinear: 0
+    - outputName: Normal
+      bLinear: 1
+    - outputName: Roughness
+      bLinear: 1
+    - outputName: Metallic
+      bLinear: 1
+    - outputName: Height
+      bLinear: 1
+    - outputName: AmbientOcclusion
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 1024
+      textureHeight: 1024
+      textureFormat: 0
+      loadBehavior: 0
+    - label: Standalone
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      loadBehavior: 0
+    - label: iPhone
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      loadBehavior: 0
+    material: {fileID: 2100000, guid: d2ae26050b473d44da9bf801841a38e2, type: 3}
+  - graphLabel: Wall_1
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Wall\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"16222218\" type=\"8\" value=\"9,9\" />\n  <presetinput identifier=\"$randomseed\"
+      uid=\"1468374616\" type=\"4\" value=\"8212\" />\n  <presetinput identifier=\"Wetness\"
+      uid=\"1964837209\" type=\"0\" value=\"0.5\" />\n  <presetinput identifier=\"NormalIntensity\"
+      uid=\"1964779057\" type=\"0\" value=\"2.4\" />\n  <presetinput identifier=\"WaterLevel_Water_Level\"
+      uid=\"1964798758\" type=\"0\" value=\"0.2\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: Base Color,Normal,Metallic,Height,AmbientOcclusion
+    texturePackingList:
+    - outputName: Base Color
+      alphaSource: Base Color
+    - outputName: Normal
+      alphaSource: Normal
+    - outputName: Roughness
+      alphaSource: Roughness
+    - outputName: Metallic
+      alphaSource: Smoothness
+    - outputName: Height
+      alphaSource: Height
+    - outputName: AmbientOcclusion
+      alphaSource: AmbientOcclusion
+    colorSpaceList:
+    - outputName: Base Color
+      bLinear: 0
+    - outputName: Normal
+      bLinear: 1
+    - outputName: Roughness
+      bLinear: 1
+    - outputName: Metallic
+      bLinear: 1
+    - outputName: Height
+      bLinear: 1
+    - outputName: AmbientOcclusion
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      loadBehavior: 0
+    - label: Standalone
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      loadBehavior: 0
+    - label: iPhone
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      loadBehavior: 0
+    material: {fileID: 2100002, guid: d2ae26050b473d44da9bf801841a38e2, type: 3}

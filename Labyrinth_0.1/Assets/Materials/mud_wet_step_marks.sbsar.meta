@@ -1,0 +1,101 @@
+fileFormatVersion: 2
+guid: 3d825401a9212bc428e0572d6fb93b31
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: mud_wet_step_marks/mud_wet_step_marks
+    400000: mud_wet_step_marks/mud_wet_step_marks/Transform
+    2100000: mat.Mud Wet Step Marks
+    2300000: mud_wet_step_marks/mud_wet_step_marks/MeshRenderer
+    2800000: Mud Wet Step Marks_Base Color
+    2800002: Mud Wet Step Marks_Normal
+    2800004: Mud Wet Step Marks_Metallic
+    2800006: Mud Wet Step Marks_Height
+    3300000: mud_wet_step_marks/mud_wet_step_marks/MeshFilter
+    11400000: sbsar
+    11400002: graph0
+    13500000: mud_wet_step_marks/mud_wet_step_marks/SphereCollider
+    100100000: mud_wet_step_marks
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  mGraphInstanceData:
+  - graphLabel: Mud Wet Step Marks
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://mud_wet_step_marks\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"1455641275\" type=\"8\" value=\"10,10\" />\n
+      \ <presetinput identifier=\"leave_color_variation\" uid=\"550316340\" type=\"0\"
+      value=\"0.326\" />\n  <presetinput identifier=\"leave_density\" uid=\"549543218\"
+      type=\"0\" value=\"1\" />\n  <presetinput identifier=\"water_amount\" uid=\"549524922\"
+      type=\"0\" value=\"0.367\" />\n  <presetinput identifier=\"footprint_density\"
+      uid=\"549524656\" type=\"0\" value=\"0.102\" />\n  <presetinput identifier=\"twig_density\"
+      uid=\"549561024\" type=\"0\" value=\"0.455\" />\n  <presetinput identifier=\"pebble_density\"
+      uid=\"549525122\" type=\"0\" value=\"0.438\" />\n  <presetinput identifier=\"water_dirt_density\"
+      uid=\"550331676\" type=\"0\" value=\"0.512\" />\n  <presetinput identifier=\"roughness\"
+      uid=\"550352877\" type=\"0\" value=\"0.079\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: Base Color,Normal,Metallic,Height
+    texturePackingList:
+    - outputName: Diffuse
+      alphaSource: Diffuse
+    - outputName: Base Color
+      alphaSource: Base Color
+    - outputName: Normal
+      alphaSource: Normal
+    - outputName: Specular
+      alphaSource: Specular
+    - outputName: Glossiness
+      alphaSource: Glossiness
+    - outputName: Roughness
+      alphaSource: Roughness
+    - outputName: Metallic
+      alphaSource: Smoothness
+    - outputName: Height
+      alphaSource: Height
+    colorSpaceList:
+    - outputName: Diffuse
+      bLinear: 0
+    - outputName: Base Color
+      bLinear: 0
+    - outputName: Normal
+      bLinear: 1
+    - outputName: Specular
+      bLinear: 0
+    - outputName: Glossiness
+      bLinear: 1
+    - outputName: Roughness
+      bLinear: 1
+    - outputName: Metallic
+      bLinear: 1
+    - outputName: Height
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 1024
+      textureHeight: 1024
+      textureFormat: 0
+      loadBehavior: 0
+    - label: Standalone
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      loadBehavior: 0
+    - label: iPhone
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      loadBehavior: 0
+    material: {fileID: 2100000, guid: 3d825401a9212bc428e0572d6fb93b31, type: 3}
