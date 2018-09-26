@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Materials/MaterialTesting.unity
-  isLoaded: 1
-  isActive: 1
