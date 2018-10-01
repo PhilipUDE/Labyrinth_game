@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -18136,7 +18136,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -30584,7 +30584,7 @@ GameObject:
   - component: {fileID: 1353989840}
   - component: {fileID: 1353989841}
   m_Layer: 0
-  m_Name: SunAndMoon
+  m_Name: Time
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30616,6 +30616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52b8e73d5a50c374ab6178bddf2b5961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameTime: 0
 --- !u!1001 &1356889993
 Prefab:
   m_ObjectHideFlags: 0
@@ -40865,7 +40866,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1816489371}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce01a9543c93bb24391486a0e091dbab, type: 3}
+  m_Script: {fileID: 11500000, guid: 053ee8019f8403144990506c9c511914, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!65 &1816489373
@@ -40895,7 +40896,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: e9c5c4facc378474fb124da45b629335, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
