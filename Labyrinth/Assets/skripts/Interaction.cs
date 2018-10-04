@@ -6,9 +6,6 @@ public class Interaction : MonoBehaviour {
     private GameObject player;
     private GameObject timeGameObject;
 
-    private RaycastHit hit;
-    private Vector3 forward;
-
     private Vector3 positionInBed;
 
     void Start () {
@@ -18,15 +15,9 @@ public class Interaction : MonoBehaviour {
     }
 	
 
-	void Update () {
-
-        forward = player.transform.TransformDirection(Vector3.forward) * 10;
-
-        Debug.DrawRay(player.transform.position, forward, Color.green);
-        Physics.Raycast(player.transform.position, forward, out hit);
-
-
-        if (hit.collider.gameObject == gameObject && hit.distance < interactableDistance)
+	void Update ()
+    {
+        if (player.GetComponent<Raycast>().hit.collider.gameObject == gameObject && player.GetComponent<Raycast>().hit.distance < interactableDistance)
         {
             Debug.Log("Press F to interact"); //Platzhalter für richtige Texteinblendung
             if (Input.GetKeyDown(KeyCode.F))

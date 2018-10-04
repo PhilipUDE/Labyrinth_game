@@ -31,13 +31,13 @@ public class DayNightCicle : MonoBehaviour {
     {
         realTime += Time.deltaTime;
         gameTime = (realTime / dayLength) * 24;
-        Debug.Log(gameTime);
 
         if (gameTime >= 24)
         {
             realTime = 0;
             gameTime = 0;
         }
+
     }
 
     private void SunAndMoon()
